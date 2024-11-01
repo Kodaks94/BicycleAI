@@ -33,6 +33,7 @@ This approach allows the agent to focus on critical moments in the balancing tas
 
 Results and Visual Analysis
 The experiments evaluated agent performance with and without an early termination condition when exceeding a specific roll angle. Notably, the tanh-wrapped penalty function led to smoother and more stable learning trajectories, as visualized in the results below:
+![Performance Comparison](comp.png)
 
 
 
