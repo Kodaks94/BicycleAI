@@ -34,6 +34,8 @@ This approach allows the agent to focus on critical moments in the balancing tas
 Results and Visual Analysis
 The experiments evaluated agent performance with and without an early termination condition when exceeding a specific roll angle. Notably, the tanh-wrapped penalty function led to smoother and more stable learning trajectories, as visualized in the results below:
 
+
+
 Without Early Termination, The agent could maintain balance and achieve steady navigation.
 With Early Termination: The penalty function allowed controlled resets, facilitating further exploration and learning stability.
 Graphs show the agent’s balanced paths and roll angles across trials, underscoring the influence of reward shaping on task performance.
