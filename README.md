@@ -2,6 +2,11 @@
 
 This project implements a bicycle model introduced by [Randløv and Alstrøm (1998)](https://doi.org/10.1162/089976698300017805), demonstrating the application of Backpropagation Through Time (BPTT) to control a simulated bicycle's balance and navigation. Key modifications to the model enable it to be differentiable, allowing a neural network to learn control inputs based on sensory information.
 
+## License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
+
 ## Overview
 Balancing and navigating a bicycle involves complex motor coordination, sensory processing, and dynamic control. The BPTT algorithm, typically used in sequential prediction tasks, is explored here as a tool for control in reinforcement learning, with specific adjustments to handle the unique dynamics of bicycle balance and navigation.
 
